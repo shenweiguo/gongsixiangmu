@@ -53,6 +53,10 @@
       </span>
     </div>
     <!--解决方案结束-->
+    <section class="home-Product-Solve">
+
+    </section>
+    <!---->
     <div class="home-Product-title">
       <span class="home-Product-titlei">
         <img src="../assets/images/shouye/shouye_3.png" alt />
@@ -106,6 +110,13 @@ export default {
 </script>
 
 <style scoped>
+.home-Product-Solve{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 740px;
+  background: url("../assets/images/shouye/h_14.jpg")no-repeat;
+}
 .home-Product-fm{
   display: flex;
   flex-direction: column;
