@@ -40,7 +40,7 @@
           <img src="../assets/images/aboutUs/ab_g5.jpg" alt />
         </span>
         <span>使命</span>
-        <span>立足于大政法信息化行业，成为资本市场科技类公众公司。管理规范的国家级高新科技公司。有狼性有激情不断创新的公司。</span>
+        <span>坚持技术创新，不断推动大政法信息化建设，使大政法业务工作迈向智能化。</span>
       </div>
       <!--第一个结束-->
       <div class="aboutus_l1">
@@ -48,7 +48,7 @@
           <img src="../assets/images/aboutUs/ab_g6.jpg" alt />
         </span>
         <span>核心价值观</span>
-        <span>立足于大政法信息化行业，成为资本市场科技类公众公司。管理规范的国家级高新科技公司。有狼性有激情不断创新的公司。</span>
+        <span>以市场和客户为重心，以创新发展为动力，以努力奋斗者为根本。</span>
       </div>
       <!--第一个结束-->
       <div class="aboutus_l1">
@@ -56,13 +56,36 @@
           <img src="../assets/images/aboutUs/ab_g7.jpg" alt />
         </span>
         <span>核心理念</span>
-        <span>立足于大政法信息化行业，成为资本市场科技类公众公司。管理规范的国家级高新科技公司。有狼性有激情不断创新的公司。</span>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;谦卑、讲道理；坦诚 、走正道。</span>
       </div>
       <!--第一个结束-->
     </aside>
     <!--公司愿景列表结束-->
 
-    <div style="height:200px;"></div>
+    <section class="aboutus_Title">
+      <img src="../assets/images/aboutUs/ab_g3.jpg" alt />
+    </section>
+    <!--董事长致辞结束-->
+    <section class="aboutus_address">
+      <div class="aboutus_aleft">
+        <span>
+          <img src="../assets/images/aboutUs/ab_g9.jpg" alt />
+        </span>
+        <span>董事长：莫业文</span>
+      </div>
+      <!--头像结束左边-->
+      <div class="aboutus_aright">
+        <span>期待是一种愿望，一种心境，更是一种责任。宏正道科技在期待中成长。</span>
+        <span>我们一起创业，期待着拥有自己展示才华的舞台；创业之初，我们步履蹒跚，期待并珍惜每一个参与竞争的机会；今天，当我们站在宏正道科技的平台上，享受多年来不断实现期待、超越期待的喜悦时，感受到的是更多的责任，我们唯有加倍努力，才能不断超越，并共同拥有美好的未来。</span>
+        <span>我们倡导通过整体应用方案的构思与产品制造实现大政法行业信息化建设的最大价值，通过精心设计及服务为客户节约投资，我们因此与许多客户和底层核心技术提供商建立起长期的合作伙伴关系。持续超越客户的期待是宏正道不断发展壮大的基础。</span>
+        <span>我们时刻肩负着社会的期待。大政法信息化行业空前的发展机遇，要求我们的应用理念和设计方案、产品品质和环境保护、人工智能和科技含量融为一体。我们以专业知识和精神，创建和谐社会风貌，为信息化智能化建设注入新元素和新活力。</span>
+        <span>员工的期待，客户的重托，社会的责任，注定我们唯有不断超越自我，精益制造，精心设计，才能承受期待之托，才能让未来收获更多的意义和绚丽色彩。过去的期待已成为历史的坐标，未来为宏正道提供了广阔无垠的发展空间。让我们携手，超越期待，共创未来。</span>
+      </div>
+      <!--右边结束-->
+    </section>
+    <!--致辞结束-->
+
+
 
     <!--底部导航-->
     <footer class="home-footer">
@@ -91,10 +114,65 @@ export default {
 </script>
 
 <style  scoped>
+.aboutus_aright span:nth-child(1){
+  margin-bottom: 10px;
+}
+.aboutus_aright span:nth-child(2){
+  margin-bottom: 10px;
+}
+.aboutus_aright span:nth-child(3){
+  margin-bottom: 10px;
+}
+.aboutus_aright span:nth-child(4){
+  margin-bottom: 10px;
+}
+.aboutus_aright {
+  /* width: 60%; */
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  color: #ffffff;
+  line-height: 30px;
+  padding-right: 120px;
+}
+.aboutus_aleft span:last-child {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-top: 20px;
+}
+.aboutus_aleft {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+.aboutus_address {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  background: url("../assets/images/aboutUs/ab_g8.jpg") repeat-x;
+  align-items: center;
+  height: 740px;
+}
 .aboutus_l1 {
   display: flex;
   flex-direction: column;
   width: 20%;
+  padding: 0 20px;
+}
+.aboutus_l1 span:nth-child(2) {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1d1919;
+  margin-top: 30px;
+}
+.aboutus_l1 span:nth-child(3) {
+  font-size: 14px;
+  margin-top: 30px;
+  display: flex;
+  text-align: left;
+  line-height: 30px;
 }
 .aboutus_list {
   display: flex;

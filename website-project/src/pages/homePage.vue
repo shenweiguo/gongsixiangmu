@@ -181,7 +181,6 @@ export default {
   height: 530px;
   top: 50%;
 }
-
 .homeHerder {
   display: flex;
   flex-direction: row;
