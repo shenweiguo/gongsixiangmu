@@ -26,8 +26,8 @@ export default {
 body{
   margin: 0px;
 }
-body, div, ul, ol, dl, dt, dd, li, dl, h1, h2, h3, h4
-{margin:0;padding:0;font-style:normal;font:12px/22px ,"微软雅黑",Arial, Helvetica,sans-serif}
+body, div, ul, ol, dl, dt, dd, li, dl, h1, h2, h3, h4,span
+{margin:0;padding:0;font-style:normal;font-family:"微软雅黑"}
 
 ol, ul ,li{list-style: none;}
 img {border: 0; vertical-align:middle;}
