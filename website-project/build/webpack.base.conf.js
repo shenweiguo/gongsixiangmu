@@ -30,6 +30,10 @@ module.exports = {
     }
   },
   module: {
+
+    test: /\.scss$/,
+    loaders: ["style", "css", "sass"],
+
     rules: [
       {
         test: /\.vue$/,
