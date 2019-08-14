@@ -47,7 +47,7 @@
       </span>
     </section>
     <!--产品中心设备-->
-     <div class="home-Product-title">
+    <div class="home-Product-title">
       <span class="home-Product-titlei">
         <img src="../assets/images/shouye/shouye_2.png" alt />
       </span>
@@ -55,7 +55,58 @@
     <!--解决方案结束-->
     <section class="home-Product-Solve">
       <div class="home-Product-slist1">
+        <span class="home-Product-slist1s">
+          <img src="../assets/images/shouye/h_6.jpg" alt />
+        </span>
+        <div class="home-Product-slist1m">
+          <span>大政法办案中心解决方案</span>
+          <span>基于对大政法执法办案中心十余年的理解，从前期规划设计，到设备和系统集成和项目实施，直至交付使用，我们能够提供完整的建设解决方案 ......</span>
+          <span>
+            <span class="home-Product-slists">H</span>
+          </span>
+        </div>
+      </div>
+      <!--第一个结束-->
 
+      <div class="home-Product-slist1">
+        <span class="home-Product-slist1s">
+          <img src="../assets/images/shouye/h_7.jpg" alt />
+        </span>
+        <div class="home-Product-slist1m">
+          <span>基层队所解决方案</span>
+          <span>通过对广大基层队所的部署经验，我们对执法办案人员的日常使用和业务需求有着深入的了解，可以根据用户的行业特点和具体业务需求出具定制化解决方案 ......</span>
+          <span>
+            <span class="home-Product-slists">H</span>
+          </span>
+        </div>
+      </div>
+      <!--第一个结束-->
+
+      <div class="home-Product-slist1">
+        <span class="home-Product-slist1s">
+          <img src="../assets/images/shouye/h_8.jpg" alt />
+        </span>
+        <div class="home-Product-slist1m">
+          <span>智能语音识别解决方案</span>
+          <span>依托腾讯云语音识别引擎等底层核心技术，我们推出正道系列智能语音识别应用产品，可广泛应用于多种业务场景，如智能审讯笔录、接警语音转表单和远程会议等等 ......</span>
+          <span>
+            <span class="home-Product-slists">H</span>
+          </span>
+        </div>
+      </div>
+      <!--第一个结束-->
+
+      <div class="home-Product-slist1">
+        <span class="home-Product-slist1s">
+          <img src="../assets/images/shouye/h_9.jpg" alt />
+        </span>
+        <div class="home-Product-slist1m">
+          <span>智能语义理解解决方案</span>
+          <span>依托腾讯云语义理解引擎和星图引擎，我们研发出系列智能语义理解应用产品，可广泛应用于多种业务场景，如智慧审讯助手、指挥中心语音交互等等 ......</span>
+          <span>
+            <span class="home-Product-slists">H</span>
+          </span>
+        </div>
       </div>
       <!--第一个结束-->
     </section>
@@ -67,27 +118,32 @@
     </div>
     <!--服务支持结束-->
     <section class="home-Product-fuwu">
-
-        <div class="home-Product-fm">
-          <span><img src="../assets/images/shouye/f_2.jpg" alt=""></span>
-          <span>资料下载</span>
-        </div>
-        <div class="home-Product-fm">
-          <span><img src="../assets/images/shouye/f_3.jpg" alt=""></span>
-          <span>资料下载</span>
-        </div>
-        <div class="home-Product-fm">
-          <span><img src="../assets/images/shouye/f_4.jpg" alt=""></span>
-          <span>资料下载</span>
-        </div>
+      <div class="home-Product-fm">
+        <span>
+          <img src="../assets/images/shouye/f_2.jpg" alt />
+        </span>
+        <span>资料下载</span>
+      </div>
+      <div class="home-Product-fm">
+        <span>
+          <img src="../assets/images/shouye/f_3.jpg" alt />
+        </span>
+        <span>资料下载</span>
+      </div>
+      <div class="home-Product-fm">
+        <span>
+          <img src="../assets/images/shouye/f_4.jpg" alt />
+        </span>
+        <span>资料下载</span>
+      </div>
     </section>
-    <div style="height:200px;"></div>
+    <div style="height:100px;"></div>
 
     <!--底部导航-->
     <footer class="home-footer">
       <footer-navigation></footer-navigation>
     </footer>
-    <!--底部导航-->
+    <!--底部导航结束-->
   </div>
   <!--所有内容-->
 </template>
@@ -113,25 +169,66 @@ export default {
 </script>
 
 <style scoped>
-.home-Product-slist1{
+.home-Product-slist1s {
+  margin-top: 70px;
+}
+.home-Product-slists {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  background: #a71721;
+  font-weight: normal;
+  text-align: center;
+}
+.home-Product-slist1m span:nth-child(1) {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 60px;
+}
+.home-Product-slist1m span:nth-child(2) {
+  margin-top: 20px;
+  text-align: left;
+  line-height: 25px;
+}
+.home-Product-slist1m span:nth-child(3) {
+  display: flex;
+  justify-content: center;
+}
+.home-Product-slist1m {
   display: flex;
   flex-direction: column;
-  width: 30%;
-  background: #5e92d1;
+  justify-content: center;
+  padding: 0 70px;
+  color: #ffffff;
+  /* margin-top: 140px; */
 }
-.home-Product-Solve{
+.home-Product-slist1 {
+  display: flex;
+  flex-direction: column;
+
+  flex: 1;
+  background-color: rgba(103, 152, 212, 0.8);
+  border-right: 1px solid #4682bd;
+}
+.home-Product-Solve {
   display: flex;
   flex-direction: row;
   width: 100%;
   height: 640px;
-  background: url("../assets/images/shouye/h_14.jpg")no-repeat;
+  background: url("../assets/images/shouye/h_14.jpg") no-repeat;
 }
-.home-Product-fm{
+.home-Product-fm {
   display: flex;
   flex-direction: column;
+  padding: 0 100px;
   /* background: red; */
 }
-.home-Product-fuwu{
+.home-Product-fm span:nth-child(2) {
+  color: #ffffff;
+  font-size: 16px;
+  margin-top: 50px;
+}
+.home-Product-fuwu {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -139,9 +236,8 @@ export default {
   justify-content: center;
   background: url("../assets/images/shouye/f_1.jpg");
   height: 435px;
-  margin-top: 65px;
 }
-.home-Product-Exhibition span{
+.home-Product-Exhibition span {
   margin: 0 20px;
 }
 .home-Product-Exhibitioni3 {
@@ -192,6 +288,7 @@ export default {
   justify-content: center;
   background: #f7f7f7;
   text-align: center;
+  padding-bottom: 30px;
 }
 .el-carousel__container {
   position: relative;
