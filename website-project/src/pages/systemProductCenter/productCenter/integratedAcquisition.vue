@@ -17,8 +17,8 @@
         人员基础信息一体化采集设备    列装型号：PJS012
     </section>.
     <!--人员基础结束-->
-    <section>
-        123456
+    <section class="integrated-imgm">
+        <span class="integrated-imgi"><img src="../../../assets/images/productCenter/pr_3.jpg" alt=""></span>
     </section>
 
      <section class="integrated-title">
@@ -36,9 +36,14 @@
     </section>
     <!--设备简介结束-->
     <section class="integrated-equipment">
-        <div><img src="../../../assets/images/productCenter/pr_2.jpg" alt=""></div>
+        <div class="integrated-equimg"><img src="../../../assets/images/productCenter/pr_2.jpg" alt=""></div>
     </section>
     <!--设备流程图-->
+
+    <section class="integrated-task">
+      <div class="integrated-taski"><img src="../../../assets/images/productCenter/pr_4.jpg" alt=""></div>
+    </section>
+    <!--任务来源-->
 
 
 
@@ -75,12 +80,52 @@ export default {
 </script>
 
 <style scoped>
+.integrated-taski{
+  width: 1380px;
+  height: 50px;
+}
+.integrated-taski img{
+  width: 100%;
+  height: 100%;
+}
+.integrated-task{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin-top: 150px;
+}
+.integrated-imgi{
+  width: 1300px;
+  height: 500px;
+}
+.integrated-imgi img{
+  width: 100%;
+  height: 100%;
+}
+.integrated-imgm{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.integrated-equimg{
+  display: flex;
+  flex-direction: row;
+
+  width: 1400px;
+  height: 34px;
+}
+.integrated-equimg img{
+  /* width: 100%;
+  height: 100%; */
+}
 .main{
     background: #f7f7f7;
 }
 .integrated-equipment{
     display: flex;
     flex-direction: column;
+
 }
 .integrated-deviceList{
     padding: 0 10%;

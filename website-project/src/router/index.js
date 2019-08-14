@@ -11,6 +11,7 @@ import productCenterMain from "../pages/systemProductCenter/productCenterMain.vu
 import integratedAcquisition from "../pages/systemProductCenter/productCenter/integratedAcquisition.vue"
 
 
+
 Vue.use(Router)
 
 export default new Router({
