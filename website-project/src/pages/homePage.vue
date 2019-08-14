@@ -54,9 +54,12 @@
     </div>
     <!--解决方案结束-->
     <section class="home-Product-Solve">
+      <div class="home-Product-slist1">
 
+      </div>
+      <!--第一个结束-->
     </section>
-    <!---->
+    <!--解决方案列表-->
     <div class="home-Product-title">
       <span class="home-Product-titlei">
         <img src="../assets/images/shouye/shouye_3.png" alt />
@@ -110,11 +113,17 @@ export default {
 </script>
 
 <style scoped>
+.home-Product-slist1{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  background: #5e92d1;
+}
 .home-Product-Solve{
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: 740px;
+  height: 640px;
   background: url("../assets/images/shouye/h_14.jpg")no-repeat;
 }
 .home-Product-fm{
