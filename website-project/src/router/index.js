@@ -11,6 +11,12 @@ import productCenterMain from "../pages/systemProductCenter/productCenterMain.vu
 import integratedAcquisition from "../pages/systemProductCenter/productCenter/integratedAcquisition.vue"
 //产品中心 子页面 阵列传声器
 import Microphone from "../pages/systemProductCenter/productCenter/Microphone.vue"
+//产品中心  子页面人员采集管理系统
+import collectionManagement from "../pages/systemProductCenter/productCenter/collectionManagement.vue"
+
+
+
+
 
 
 Vue.use(Router)
@@ -47,6 +53,12 @@ export default new Router({
       name:"Microphone",
       path:"/Microphone",
       component:Microphone
+    },
+    //产品中心 子页面人员采集管理系统
+    {
+      name:"collectionManagement",
+      path:"/collectionManagement",
+      component:collectionManagement
     }
   ]
 })
