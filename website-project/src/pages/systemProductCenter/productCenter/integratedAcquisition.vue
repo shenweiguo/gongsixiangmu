@@ -36,7 +36,7 @@
     </section>
     <!--设备简介结束-->
     <section class="integrated-equipment">
-        <div class="integrated-equimg"><img src="../../../assets/images/productCenter/pr_2.jpg" alt=""></div>
+        <div class="integrated-equimg"><img src="../../../assets/images/productCenter/pr_5.jpg" alt=""></div>
     </section>
     <!--设备流程图-->
 
@@ -110,22 +110,24 @@ export default {
 }
 .integrated-equimg{
   display: flex;
-  flex-direction: row;
-
+  justify-content: center;
+  text-align: center;
   width: 1400px;
-  height: 34px;
+  height: 300px;
 }
 .integrated-equimg img{
-  /* width: 100%;
-  height: 100%; */
+  width: 100%;
+  height: 100%;
 }
 .main{
     background: #f7f7f7;
 }
 .integrated-equipment{
     display: flex;
-    flex-direction: column;
-
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
 }
 .integrated-deviceList{
     padding: 0 10%;
