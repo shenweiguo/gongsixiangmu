@@ -13,9 +13,8 @@ import integratedAcquisition from "../pages/systemProductCenter/productCenter/in
 import Microphone from "../pages/systemProductCenter/productCenter/Microphone.vue"
 //产品中心  子页面人员采集管理系统
 import collectionManagement from "../pages/systemProductCenter/productCenter/collectionManagement.vue"
-
-
-
+//产品中心  子页面正道智能语音识别系统
+import speechRecognition from "../pages/systemProductCenter/productCenter/speechRecognition.vue"
 
 
 
@@ -59,6 +58,13 @@ export default new Router({
       name:"collectionManagement",
       path:"/collectionManagement",
       component:collectionManagement
-    }
+    },
+    //产品中心 正道智能语音识别系统
+    {
+      name:"speechRecognition",
+      path:"/speechRecognition",
+      component:speechRecognition
+    },
+
   ]
 })
