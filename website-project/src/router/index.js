@@ -15,7 +15,14 @@ import Microphone from "../pages/systemProductCenter/productCenter/Microphone.vu
 import collectionManagement from "../pages/systemProductCenter/productCenter/collectionManagement.vue"
 //产品中心  子页面正道智能语音识别系统
 import speechRecognition from "../pages/systemProductCenter/productCenter/speechRecognition.vue"
-
+//产品中心  子页面正道智慧审讯助手
+import interrogationAssistant from "../pages/systemProductCenter/productCenter/interrogationAssistant.vue"
+//解决方案 大政法办案中心解决方案
+import greatPolitical from "../pages/systemSolution/greatPolitical.vue"
+//解决方案  基层队所解决方案
+import rootsTeam from "../pages/systemSolution/rootsTeam.vue";
+//解决方案  大政法
+import politicalLaw from "../pages/systemSolution/politicalLaw.vue"
 
 
 Vue.use(Router)
@@ -65,6 +72,30 @@ export default new Router({
       path:"/speechRecognition",
       component:speechRecognition
     },
+    //产品中心  子页面正道智慧审讯助手
+    {
+      name:"interrogationAssistant",
+      path:"/interrogationAssistant",
+      component:interrogationAssistant
+    },
+    //解决方案 大政法办案中心解决方案
+    {
+      name:"greatPolitical",
+      path:"/greatPolitical",
+      component:greatPolitical
+    },
+    //解决方案  基层队所解决方案
+    {
+      name:"rootsTeam",
+      path:"/rootsTeam",
+      component:rootsTeam
+    },
+    //解决方案  大政法
+    {
+      name:"politicalLaw",
+      path:"/politicalLaw",
+      component:politicalLaw
+    }
 
   ]
 })

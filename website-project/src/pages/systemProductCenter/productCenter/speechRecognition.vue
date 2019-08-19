@@ -24,14 +24,21 @@
       <img src="../../../assets/images/productCenter/pr_14.jpg" alt />
       <span class="speech-title1">应用行业</span>
       <div class="speech-list1">
-          <span>大政法</span>
-          <span>金融证券</span>
-          <span>教育</span>
-          <span>医疗</span>
-          <span>交通</span>
+        <span>大政法</span>
+        <span>金融证券</span>
+        <span>教育</span>
+        <span>医疗</span>
+        <span>交通</span>
       </div>
     </section>
     <!--应用行业结束-->
+    <section class="speech-title">应用场景</section>
+    <!--标题结束-->
+    <section class="speech-scene">
+      <div class="speech-scenei">
+        <img src="../../../assets/images/productCenter/pr_15.jpg" alt />
+      </div>
+    </section>
 
     <div style="height:200px;"></div>
     <!--底部导航-->
@@ -61,12 +68,38 @@ export default {
 </script>
 
 <style scoped>
-.speech-list1{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
+.main{
+    background: #f7f7f7;
+}
+.speech-scenei {
+    padding: 0 100px;
+  width: 100%;
+  height: 860px;
+}
+.speech-scenei img {
+  width: 100%;
+  height: 100%;
+}
+.speech-scene {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.speech-list1 {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: absolute;
+  color: #ffffff;
+  bottom: 85px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0 4%;
+}
+.speech-list1 span {
+  flex: 1;
 }
 .speech-title1 {
   width: 100%;
