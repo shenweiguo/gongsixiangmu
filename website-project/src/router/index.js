@@ -33,7 +33,7 @@ export default new Router({
     //首页
     {
       name:"homePage",
-      path:"/homePage",
+      path:"/",
       component:homePage
     },
     //关于我们
