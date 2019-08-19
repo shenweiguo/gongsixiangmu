@@ -112,9 +112,7 @@ export default {
   justify-content: center;
   padding: 0 10px;
 }
-.main {
-  background: #f7f7f7;
-}
+
 .great-title {
   width: 100%;
   display: flex;
@@ -123,6 +121,9 @@ export default {
   align-items: center;
   padding-top: 150px;
   padding-bottom: 100px;
+}
+.main {
+  background: #f7f7f7;
 }
 .great-lun {
   width: 100%;

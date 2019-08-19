@@ -23,6 +23,10 @@ import greatPolitical from "../pages/systemSolution/greatPolitical.vue"
 import rootsTeam from "../pages/systemSolution/rootsTeam.vue";
 //解决方案  大政法
 import politicalLaw from "../pages/systemSolution/politicalLaw.vue"
+//解决方案  平安城市  平安中国
+import intelligentVoice from "../pages/systemSolution/intelligentVoice.vue"
+//案例展示
+import casePresentation from "../pages/casePresentation.vue"
 
 
 Vue.use(Router)
@@ -95,7 +99,18 @@ export default new Router({
       name:"politicalLaw",
       path:"/politicalLaw",
       component:politicalLaw
+    },
+    //解决方案  平安城市  平安中国
+    {
+      name:"intelligentVoice",
+      path:"/intelligentVoice",
+      component:intelligentVoice
+    },
+    //案例展示
+    {
+      name:"casePresentation",
+      path:"/casePresentation",
+      component:casePresentation
     }
-
   ]
 })
