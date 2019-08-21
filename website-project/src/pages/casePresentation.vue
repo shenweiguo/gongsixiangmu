@@ -25,8 +25,13 @@
     </section>
     <!--标题结束-->
 
-    <section>
+    <section class="case-list1">
+      <div class="case-list1left">
 
+      </div>
+      <!--左边-->
+      <div class=""></div>
+      <!--右边-->
     </section>
     <!--案例展示结束-->
 
@@ -61,6 +66,11 @@ export default {
 
 
 <style scoped>
+.case-list1{
+  padding: 0 70px;
+  display: flex;
+  flex-direction: row;
+}
 .main {
   background: #f7f7f7;
 }

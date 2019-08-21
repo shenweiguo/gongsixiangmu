@@ -27,6 +27,12 @@ import politicalLaw from "../pages/systemSolution/politicalLaw.vue"
 import intelligentVoice from "../pages/systemSolution/intelligentVoice.vue"
 //案例展示
 import casePresentation from "../pages/casePresentation.vue"
+//服务支持  下载专区
+import downloadZone from "../pages/serviceSupport/downloadZone.vue"
+//服务支持  售后服务机构分布
+import saleService from "../pages/serviceSupport/saleService.vue"
+//服务支持  常见问题解答
+import commonProblem from "../pages/serviceSupport/commonProblem.vue"
 
 
 Vue.use(Router)
@@ -111,6 +117,24 @@ export default new Router({
       name:"casePresentation",
       path:"/casePresentation",
       component:casePresentation
+    },
+    //服务支持  下载专区
+    {
+      name:"downloadZone",
+      path:"/downloadZone",
+      component:downloadZone
+    },
+    //服务支持  售后服务机构分布
+    {
+      name:"saleService",
+      path:"/saleService",
+      component:saleService
+    },
+    //服务支持  常见问题解答
+    {
+      name:"commonProblem",
+      path:"/commonProblem",
+      component:commonProblem
     }
   ]
 })
