@@ -34,7 +34,6 @@
         </tr>
         <tr>
           <td>人员基础信息一体化采集设备技术规格书</td>
-
           <td>
             <span class="down-tablei">
               <img src="../../assets/images/serviceSupport/se_2.jpg" alt />
@@ -43,7 +42,6 @@
         </tr>
         <tr>
           <td>人员基础信息采集管理系统规格书</td>
-
           <td>
             <span class="down-tablei">
               <img src="../../assets/images/serviceSupport/se_2.jpg" alt />
@@ -52,7 +50,6 @@
         </tr>
         <tr>
           <td>阵列传声器规格书</td>
-
           <td>
             <span class="down-tablei">
               <img src="../../assets/images/serviceSupport/se_2.jpg" alt />

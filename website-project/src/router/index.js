@@ -33,6 +33,12 @@ import downloadZone from "../pages/serviceSupport/downloadZone.vue"
 import saleService from "../pages/serviceSupport/saleService.vue"
 //服务支持  常见问题解答
 import commonProblem from "../pages/serviceSupport/commonProblem.vue"
+//生态合作  合作伙伴分布
+import cooperativePartner from "../pages/ecoCooperation/cooperativePartner.vue"
+//生态合作  代理合作
+import agencyCooperation from "../pages/ecoCooperation/agencyCooperation.vue"
+//生态合作   渠道合作
+import channelCooperation from "../pages/ecoCooperation/channelCooperation.vue"
 
 
 Vue.use(Router)
@@ -135,6 +141,24 @@ export default new Router({
       name:"commonProblem",
       path:"/commonProblem",
       component:commonProblem
+    },
+    //生态合作  合作伙伴分布
+    {
+      name:"cooperativePartner",
+      path:"/cooperativePartner",
+      component:cooperativePartner
+    },
+    //生态合作  代理合作
+    {
+      name:"agencyCooperation",
+      path:"/agencyCooperation",
+      component:agencyCooperation
+    },
+    //生态合作   渠道合作
+    {
+      name:"channelCooperation",
+      path:"/channelCooperation",
+      component:channelCooperation
     }
   ]
 })
