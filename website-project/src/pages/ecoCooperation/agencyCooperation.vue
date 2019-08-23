@@ -17,8 +17,7 @@
       <span>
         <img src="../../assets/images/solution/so_2.jpg" alt />
       </span>
-      <span>代理合作
-</span>
+      <span>代理合作</span>
       <span>
         <img src="../../assets/images/solution/so_3.jpg" alt />
       </span>
@@ -67,8 +66,8 @@ export default {
 </script>
 
 <style scoped>
-.angency-list span{
-    text-indent: 2rem;
+.angency-list span {
+  text-indent: 2rem;
 }
 .angency-list {
   display: flex;

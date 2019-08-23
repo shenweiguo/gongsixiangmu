@@ -26,12 +26,12 @@
     <!--标题结束-->
 
     <section class="case-list1">
-      <div class="case-list1left">
-
-      </div>
-      <!--左边-->
-      <div class=""></div>
-      <!--右边-->
+        <div class="case-list1main">
+          <div><img src="../assets/images/casePresentation/ca_2.jpg" alt=""></div>
+          <!--左边-->
+          <div></div>
+          <!--右边-->
+        </div>
     </section>
     <!--案例展示结束-->
 
@@ -66,10 +66,17 @@ export default {
 
 
 <style scoped>
+
+.case-list1main{
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid #d5d3d3;
+}
 .case-list1{
-  padding: 0 70px;
+  padding: 50px 70px;
   display: flex;
   flex-direction: row;
+  background: #f3f3f3;
 }
 .main {
   background: #f7f7f7;

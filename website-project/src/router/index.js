@@ -39,6 +39,13 @@ import cooperativePartner from "../pages/ecoCooperation/cooperativePartner.vue"
 import agencyCooperation from "../pages/ecoCooperation/agencyCooperation.vue"
 //生态合作   渠道合作
 import channelCooperation from "../pages/ecoCooperation/channelCooperation.vue"
+//加入联腾   招贤纳士
+import wiseVirtuous from "../pages/joinLenton/wiseVirtuous.vue"
+//加入联腾   简历展示
+import resumePresentation from "../pages/joinLenton/resumePresentation.vue"
+//加入联腾   联系我们
+import contactUs from "../pages/joinLenton/contactUs.vue"
+
 
 
 Vue.use(Router)
@@ -159,6 +166,24 @@ export default new Router({
       name:"channelCooperation",
       path:"/channelCooperation",
       component:channelCooperation
+    },
+    //加入联腾   招贤纳士
+    {
+      name:"wiseVirtuous",
+      path:"/wiseVirtuous",
+      component:wiseVirtuous
+    },
+    //加入联腾   简历展示
+    {
+      name:"resumePresentation",
+      path:"/resumePresentation",
+      component:resumePresentation
+    },
+    //加入联腾   联系我们
+    {
+      name:"contactUs",
+      path:"/contactUs",
+      component:contactUs
     }
   ]
 })
