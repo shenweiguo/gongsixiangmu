@@ -40,7 +40,7 @@
           class="cooper-tLefts2"
         >栉风沐雨，砥砺前行，宏正道科技专注于大政法领域信息化产品和服务，在全国范围内构建市场营销网络，大力发展合作伙伴，打造生态合作模式，构建基于宏正道产品和解决方案的市场实践和用户体验，本着“合作包容 携手共进”的理念，我们坚持开放市场和客户资源，与合作伙伴一道开发区域市场，为中国大政法行业信息化建设贡献一份力量。</span>
         <span class="cooper-tLefts3m">
-          <span class="cooper-tLefts3">了解更多</span>
+          <span class="cooper-tLefts3"> <router-link :to="{path:'/agencyCooperation'}">了解更多</router-link> </span>
         </span>
       </div>
       <!--左边-->
@@ -52,7 +52,7 @@
           class="cooper-tLefts2"
         >宏正道科技专注于大政法领域信息化产品和服务，在全国范围内构建市场营销网络，大力发展项目渠道合作伙伴。宏正道拥有经验丰富的研发团队和项目实施团队，可以为合作伙伴提供强大的全方位支撑，根据项目的不同特点，从售前技术支持到项目具体实施，直至竣工交付和售后服务，我们可以提供专业定制化方案。宏正道是值得信赖的合作伙伴。</span>
         <span class="cooper-tLefts3m">
-          <span class="cooper-tLefts3">了解更多</span>
+          <span class="cooper-tLefts3">  <router-link :to="{path:'/channelCooperation'}">了解更多</router-link></span>
         </span>
       </div>
       <!--左边-->
@@ -118,6 +118,9 @@ export default {
 .cooper-tLefts3 {
   padding: 5px 21px;
   border: 1px solid #ff0000;
+  color: #ff0000;
+}
+.cooper-tLefts3 a{
   color: #ff0000;
 }
 .cooper-tLefts2 {
