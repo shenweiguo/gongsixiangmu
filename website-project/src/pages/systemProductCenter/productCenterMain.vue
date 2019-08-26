@@ -16,21 +16,32 @@
       </span>
     </div>
     <!--产品中心-->
-     <section class="home-Product-Exhibition">
+    <section class="home-Product-Exhibition">
       <span class="home-Product-Exhibitioni">
-        <img src="../../assets/images/shouye/h_2.jpg" alt />
+        <router-link :to="{path:'/integratedAcquisition'}">
+          <img src="../../assets/images/shouye/h_2.jpg" alt />
+        </router-link>
       </span>
+
       <span class="home-Product-Exhibitioni1">
-        <img src="../../assets/images/shouye/h_3.jpg" alt />
+        <router-link :to="{path:'/Microphone'}">
+          <img src="../../assets/images/shouye/h_3.jpg" alt />
+        </router-link>
       </span>
       <span class="home-Product-Exhibitioni2">
-        <img src="../../assets/images/shouye/h_4.jpg" alt />
+        <router-link :to="{path:'/collectionManagement'}">
+          <img src="../../assets/images/shouye/h_4.jpg" alt />
+        </router-link>
       </span>
       <span class="home-Product-Exhibitioni3">
-        <img src="../../assets/images/shouye/h_5.jpg" alt />
+        <router-link :to="{path:'/speechRecognition'}">
+          <img src="../../assets/images/shouye/h_5.jpg" alt />
+        </router-link>
       </span>
       <span class="home-Product-Exhibitioni3">
-        <img src="../../assets/images/shouye/h_5_1.jpg" alt />
+        <router-link :to="{path:'/interrogationAssistant'}">
+          <img src="../../assets/images/shouye/h_5_1.jpg" alt />
+        </router-link>
       </span>
     </section>
     <!--产品中心设备-->
