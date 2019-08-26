@@ -15,43 +15,63 @@
       <div class="block">
         <!-- <img src="../assets/images/shouye/luo_1.jpg" alt="轮播图"> -->
         <el-carousel trigger="click" style="height:530px;">
-          <el-carousel-item v-for="(item,index) in 4" :key="index" style="height:530px">
-            <img src="../assets/images/shouye/luo_1.jpg" alt="轮播图" />
+          <el-carousel-item v-for="(item,index) in imgurl" :key="index" style="height:530px">
+            <img :src="item.src" />
           </el-carousel-item>
         </el-carousel>
       </div>
     </section>
     <!--轮播图结束-->
 
-    <div class="home-Product-title">
-      <span class="home-Product-titlei">
-        <img src="../assets/images/shouye/shouye_1.png" alt />
+    <section class="great-title">
+      <span>
+        <img src="../assets/images/solution/so_2.jpg" alt />
       </span>
-    </div>
+      <span>产品中心</span>
+      <span>
+        <img src="../assets/images/solution/so_3.jpg" alt />
+      </span>
+    </section>
+    <!--标题结束-->
     <!--产品中心-->
     <section class="home-Product-Exhibition">
       <span class="home-Product-Exhibitioni">
-        <img src="../assets/images/shouye/h_2.jpg" alt />
+        <router-link :to="{path:'/integratedAcquisition'}">
+          <img src="../assets/images/shouye/h_2.jpg" alt />
+        </router-link>
       </span>
       <span class="home-Product-Exhibitioni1">
-        <img src="../assets/images/shouye/h_3.jpg" alt />
+        <router-link :to="{path:'/Microphone'}">
+          <img src="../assets/images/shouye/h_3.jpg" alt />
+        </router-link>
       </span>
       <span class="home-Product-Exhibitioni2">
-        <img src="../assets/images/shouye/h_4.jpg" alt />
+        <router-link :to="{path:'/collectionManagement'}">
+          <img src="../assets/images/shouye/h_4.jpg" alt />
+        </router-link>
       </span>
       <span class="home-Product-Exhibitioni3">
-        <img src="../assets/images/shouye/h_5.jpg" alt />
+        <router-link :to="{path:'/speechRecognition'}">
+          <img src="../assets/images/shouye/h_5.jpg" alt />
+        </router-link>
       </span>
       <span class="home-Product-Exhibitioni3">
-        <img src="../assets/images/shouye/h_5_1.jpg" alt />
+        <router-link :to="{path:'/interrogationAssistant'}">
+          <img src="../assets/images/shouye/h_5_1.jpg" alt />
+        </router-link>
       </span>
     </section>
     <!--产品中心设备-->
-    <div class="home-Product-title">
-      <span class="home-Product-titlei">
-        <img src="../assets/images/shouye/shouye_2.png" alt />
+    <section class="great-title">
+      <span>
+        <img src="../assets/images/solution/so_2.jpg" alt />
       </span>
-    </div>
+      <span>解决方案</span>
+      <span>
+        <img src="../assets/images/solution/so_3.jpg" alt />
+      </span>
+    </section>
+    <!--标题结束-->
     <!--解决方案结束-->
     <section class="home-Product-Solve">
       <div class="home-Product-slist1">
@@ -111,11 +131,15 @@
       <!--第一个结束-->
     </section>
     <!--解决方案列表-->
-    <div class="home-Product-title">
-      <span class="home-Product-titlei">
-        <img src="../assets/images/shouye/shouye_3.png" alt />
+    <section class="great-title">
+      <span>
+        <img src="../assets/images/solution/so_2.jpg" alt />
       </span>
-    </div>
+      <span>服务支持</span>
+      <span>
+        <img src="../assets/images/solution/so_3.jpg" alt />
+      </span>
+    </section>
     <!--服务支持结束-->
     <section class="home-Product-fuwu">
       <div class="home-Product-fm">
@@ -128,13 +152,13 @@
         <span>
           <img src="../assets/images/shouye/f_3.jpg" alt />
         </span>
-        <span>资料下载</span>
+        <span>售后服务</span>
       </div>
       <div class="home-Product-fm">
         <span>
           <img src="../assets/images/shouye/f_4.jpg" alt />
         </span>
-        <span>资料下载</span>
+        <span>常见问题解答</span>
       </div>
     </section>
     <div style="height:100px;"></div>
@@ -144,6 +168,12 @@
       <footer-navigation></footer-navigation>
     </footer>
     <!--底部导航结束-->
+
+    <section class="home-fixed">
+      <img src="../assets/images/shouye/h_15.jpg" alt="">
+    </section>
+    <!--二维码定位-->
+
   </div>
   <!--所有内容-->
 </template>
@@ -156,7 +186,12 @@ import footerNavigation from "../components/footerNavigation.vue";
 export default {
   data() {
     return {
-      imgurl: [{ src: require("../assets/images/shouye/luo_1.jpg") }]
+      imgurl: [
+        { src: require("../assets/images/shouye/luo_1.jpg") },
+        { src: require("../assets/images/shouye/luo_2.jpg") },
+        { src: require("../assets/images/shouye/luo_3.jpg") },
+        { src: require("../assets/images/shouye/luo_4.jpg") }
+      ]
     };
   },
   //模块
@@ -169,6 +204,34 @@ export default {
 </script>
 
 <style scoped>
+.home-fixed{
+  display: flex;
+  position: fixed;
+  top: 430px;
+  right: 0px;
+  z-index: 999;
+}
+.main {
+  background: #f7f7f7;
+}
+.great-title span:nth-child(2) {
+  font-weight: bold;
+  font-size: 30px;
+  color: #353232;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 10px;
+}
+.great-title {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
 .home-Product-slist1s {
   margin-top: 70px;
 }
@@ -327,12 +390,14 @@ export default {
   width: 100%;
   height: 530px;
 }
+
 .el-carousel__item h3 {
   color: #475669;
   font-size: 14px;
   opacity: 0.75;
-  line-height: 150px;
+  line-height: 5330px;
   margin: 0;
+  background: red;
 }
 
 .el-carousel__item:nth-child(2n) {

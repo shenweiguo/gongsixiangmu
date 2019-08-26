@@ -10,11 +10,15 @@
     </nav>
     <!--导航条-->
 
-    <div class="home-Product-title">
-      <span class="home-Product-titlei">
-        <img src="../../assets/images/shouye/shouye_1.png" alt />
+    <section class="great-title">
+      <span>
+        <img src="../../assets/images/solution/so_2.jpg" alt />
       </span>
-    </div>
+      <span>产品中心</span>
+      <span>
+        <img src="../../assets/images/solution/so_3.jpg" alt />
+      </span>
+    </section>
     <!--产品中心-->
     <section class="home-Product-Exhibition">
       <span class="home-Product-Exhibitioni">
@@ -76,6 +80,27 @@ export default {
 
 
 <style scoped>
+.main {
+  background: #f7f7f7;
+}
+.great-title span:nth-child(2) {
+  font-weight: bold;
+  font-size: 30px;
+  color: #353232;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 10px;
+}
+.great-title {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
 .home-footer {
   display: flex;
   flex-direction: row;

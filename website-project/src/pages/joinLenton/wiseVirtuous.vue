@@ -35,7 +35,7 @@
           <td>软件开发工程师</td>
           <td>2名</td>
           <td>20190808</td>
-          <td>查看详情</td>
+          <td> <router-link :to="{path:'/resumePresentation'}">查看详情</router-link> </td>
         </tr>
         <tr>
           <td>Java程序员</td>
@@ -142,6 +142,10 @@ export default {
   border-right: 0px;
 }
 .wise-table tr td:last-child {
+  border-right: 0px;
+  color: #ff3637;
+}
+.wise-table tr td:last-child a {
   border-right: 0px;
   color: #ff3637;
 }

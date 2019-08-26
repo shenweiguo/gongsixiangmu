@@ -3,20 +3,19 @@
     <footer class="footer_main">
         <div class="footer_top">
           <ul class="footer_topu">
-            <li>关于我们</li>
+            <li> <router-link :to="{path:'/aboutUs'}">关于我们</router-link> </li>
             <li>企业简介</li>
-            <li>企业文化</li>
             <li>公司愿景</li>
-            <li>董事长讲话</li>
+            <li>董事长致辞</li>
           </ul>
 
           <ul class="footer_topu">
-            <li>产品中心</li>
-            <li>人员基础一体化采集设备</li>
-            <li>人员基础信息采集管理系统</li>
-            <li>正道智能语音识别系统</li>
-            <li>正道智能审讯记录系统</li>
-            <li>智慧审讯助手</li>
+            <li> <router-link :to="{path:'/productCenterMain'}">产品中心</router-link> </li>
+            <li> <router-link :to="{path:'/Microphone'}">人员基础一体化采集设备</router-link> </li>
+            <li><router-link :to="{path:'/collectionManagement'}">人员基础信息采集管理系统</router-link></li>
+            <li><router-link :to="{path:'/speechRecognition'}">正道智能语音识别系统</router-link></li>
+            <li><router-link :to="{path:'/interrogationAssistant'}">正道智能审讯记录系统</router-link></li>
+            <li><router-link :to="{path:'/integratedAcquisition'}">智慧审讯助手</router-link></li>
           </ul>
 
           <ul class="footer_topu">
@@ -28,9 +27,9 @@
           </ul>
           <ul class="footer_topu">
             <li>服务支持</li>
-            <li>下载</li>
-            <li>售后服务</li>
-            <li>常见问题问答</li>
+            <li><router-link :to="{path:'/downloadZone'}">下载</router-link></li>
+            <li><router-link :to="{path:'/saleService'}">售后服务</router-link></li>
+            <li><router-link :to="{path:'/commonProblem'}">常见问题问答</router-link></li>
           </ul>
 
           <ul class="footer_topu">
@@ -105,10 +104,16 @@ export default {};
   font-weight: bold;
   margin-bottom: 18px;
 }
+.footer_topu li:first-child a{
+  color: #ffffff;
+}
 .footer_topu li:nth-child(n+2){
   color: #8b91a1;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 23px;
+}
+.footer_topu li:nth-child(n+2) a{
+  color: #8b91a1;
 }
 .footer_top .footer_topu:last-child{
   text-align: center;

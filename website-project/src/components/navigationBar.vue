@@ -5,7 +5,29 @@
         <router-link :to="{path:'/aboutUs'}">关于我们</router-link>
       </span>
       <span>
-        <router-link :to="{path:'/productCenterMain'}">产品中心</router-link>
+        <el-dropdown>
+          <span class="el-dropdown-link">
+            <router-link :to="{path:'/productCenterMain'}">产品中心</router-link>
+            <!-- <i class="el-icon-arrow-down el-icon--right"></i> -->
+          </span>
+          <el-dropdown-menu slot="dropdown">
+            <el-dropdown-item>
+              <router-link :to="{path:'/integratedAcquisition'}">人员基础信息一体化采集设备</router-link>
+            </el-dropdown-item>
+            <el-dropdown-item>
+              <router-link :to="{path:'/Microphone'}">阵列传声器</router-link>
+            </el-dropdown-item>
+            <el-dropdown-item>
+              <router-link :to="{path:'/collectionManagement'}">人员基础信息采集管理系统</router-link>
+            </el-dropdown-item>
+            <el-dropdown-item>
+              <router-link :to="{path:'/speechRecognition'}">正道智能语音识别系统</router-link>
+            </el-dropdown-item>
+            <el-dropdown-item>
+              <router-link :to="{path:'/commonProblem'}">智慧审讯助手</router-link>
+            </el-dropdown-item>
+          </el-dropdown-menu>
+        </el-dropdown>
       </span>
       <span>
         <router-link :to="{path:'/greatPolitical'}">解决方案</router-link>

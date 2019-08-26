@@ -12,9 +12,16 @@
       <img src="../assets/images/aboutUs/ab_l.jpg" alt />
     </section>
     <!--图片结束-->
-    <section class="aboutus_Title">
-      <img src="../assets/images/aboutUs/ab_g1.jpg" alt />
+    <section class="great-title">
+      <span>
+        <img src="../assets/images/solution/so_2.jpg" alt />
+      </span>
+      <span>公司简介</span>
+      <span>
+        <img src="../assets/images/solution/so_3.jpg" alt />
+      </span>
     </section>
+    <!--标题结束-->
     <!--公司简介结束-->
     <section class="aboutus_details">
       <span>深圳市宏正道科技有限公司是一家以智能公共安全信息化产品、信息化软硬件研发以及信息化工程服务为主营业务的国家级高新技术企业，凭借优质的产品和精准的服务，宏正道多次参与国家级大型项目和活动，并多次获得荣誉和表彰。</span>
@@ -22,8 +29,14 @@
       <span>2018年9月，腾讯云与宏正道科技签订了大政法领域人工智能战略合作框架协议书。根据合作协议书，双方将在大政法领域全方面开展合作，重点运用腾讯智能语音识别技术和语义理解技术服务大政法机关，共同推动智能语音识别语义理解、计算机视觉、热力图、智慧微警务、三维可视化展示等云计算、大数据、人工智能技术在大政法领域的落地。</span>
       <span>腾讯云致力于打造最高质量、最值得信赖的AI和云服务平台，在人工智能算法方面，腾讯一直处于国内乃至世界范围内的领先地位。腾讯云与宏正道在大政法人工智能领域的全面合作，为进一步推动人工智能技术在大政法行业的应用，贡献专业技术能力。宏正道科技在大数据领域、云计算方面与腾讯云建立合作，成为腾讯公安领域战略合作伙伴，发挥创新设计能力、共同开发智能执法办案系统。</span>
     </section>
-    <section class="aboutus_Title">
-      <img src="../assets/images/aboutUs/ab_g2.jpg" alt />
+    <section class="great-title">
+      <span>
+        <img src="../assets/images/solution/so_2.jpg" alt />
+      </span>
+      <span>公司愿景</span>
+      <span>
+        <img src="../assets/images/solution/so_3.jpg" alt />
+      </span>
     </section>
     <!--公司愿景结束-->
     <aside class="aboutus_list">
@@ -62,8 +75,14 @@
     </aside>
     <!--公司愿景列表结束-->
 
-    <section class="aboutus_Title">
-      <img src="../assets/images/aboutUs/ab_g3.jpg" alt />
+    <section class="great-title">
+      <span>
+        <img src="../assets/images/solution/so_2.jpg" alt />
+      </span>
+      <span>董事长致辞</span>
+      <span>
+        <img src="../assets/images/solution/so_3.jpg" alt />
+      </span>
     </section>
     <!--董事长致辞结束-->
     <section class="aboutus_address">
@@ -84,8 +103,6 @@
       <!--右边结束-->
     </section>
     <!--致辞结束-->
-
-
 
     <!--底部导航-->
     <footer class="home-footer">
@@ -114,16 +131,37 @@ export default {
 </script>
 
 <style  scoped>
-.aboutus_aright span:nth-child(1){
+.main {
+  background: #f7f7f7;
+}
+.great-title span:nth-child(2) {
+  font-weight: bold;
+  font-size: 30px;
+  color: #353232;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 10px;
+}
+.great-title {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+.aboutus_aright span:nth-child(1) {
   margin-bottom: 10px;
 }
-.aboutus_aright span:nth-child(2){
+.aboutus_aright span:nth-child(2) {
   margin-bottom: 10px;
 }
-.aboutus_aright span:nth-child(3){
+.aboutus_aright span:nth-child(3) {
   margin-bottom: 10px;
 }
-.aboutus_aright span:nth-child(4){
+.aboutus_aright span:nth-child(4) {
   margin-bottom: 10px;
 }
 .aboutus_aright {

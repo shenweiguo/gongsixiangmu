@@ -2,7 +2,7 @@
     <section class="main">
         <div class="top_header">
 
-            <div class="top_header_img"><img src="../assets/images/shouye/logo_1.jpg" alt=""></div>
+            <div class="top_header_img"> <router-link :to="{path:'/'}"><img src="../assets/images/shouye/logo_1.jpg" alt=""></router-link> </div>
             <div class="top_header_img1"><img src="../assets/images/shouye/logo_2.jpg" alt=""></div>
         </div>
         <!--顶部内容-->
