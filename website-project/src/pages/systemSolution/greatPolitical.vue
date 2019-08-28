@@ -127,7 +127,7 @@ export default {
 }
 .great-lun {
   width: 100%;
-  height: 500px;
+  height: 550px;
   display: flex;
 }
 .great-lun img {

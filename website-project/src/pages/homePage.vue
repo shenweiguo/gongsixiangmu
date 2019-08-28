@@ -76,7 +76,7 @@
     <section class="home-Product-Solve">
       <div class="home-Product-slist1">
         <span class="home-Product-slist1s">
-          <img src="../assets/images/shouye/h_6.jpg" alt />
+          <img src="../assets/images/shouye/shouye_5.png" alt />
         </span>
         <div class="home-Product-slist1m">
           <span>大政法办案中心解决方案</span>
@@ -90,7 +90,7 @@
 
       <div class="home-Product-slist1">
         <span class="home-Product-slist1s">
-          <img src="../assets/images/shouye/h_7.jpg" alt />
+          <img src="../assets/images/shouye/shouye_4.png" alt />
         </span>
         <div class="home-Product-slist1m">
           <span>基层队所解决方案</span>
@@ -104,7 +104,7 @@
 
       <div class="home-Product-slist1">
         <span class="home-Product-slist1s">
-          <img src="../assets/images/shouye/h_8.jpg" alt />
+          <img src="../assets/images/shouye/shouye_6.png" alt />
         </span>
         <div class="home-Product-slist1m">
           <span>智能语音识别解决方案</span>
@@ -118,7 +118,7 @@
 
       <div class="home-Product-slist1">
         <span class="home-Product-slist1s">
-          <img src="../assets/images/shouye/h_9.jpg" alt />
+          <img src="../assets/images/shouye/shouye_7.png" alt />
         </span>
         <div class="home-Product-slist1m">
           <span>智能语义理解解决方案</span>
@@ -144,19 +144,19 @@
     <section class="home-Product-fuwu">
       <div class="home-Product-fm">
         <span>
-          <img src="../assets/images/shouye/f_2.jpg" alt />
+          <img src="../assets/images/shouye/shouye_11.png" alt />
         </span>
         <span>资料下载</span>
       </div>
       <div class="home-Product-fm">
         <span>
-          <img src="../assets/images/shouye/f_3.jpg" alt />
+          <img src="../assets/images/shouye/shouye_9.png" alt />
         </span>
         <span>售后服务</span>
       </div>
       <div class="home-Product-fm">
         <span>
-          <img src="../assets/images/shouye/f_4.jpg" alt />
+          <img src="../assets/images/shouye/shouye_10.png" alt />
         </span>
         <span>常见问题解答</span>
       </div>
@@ -170,10 +170,9 @@
     <!--底部导航结束-->
 
     <section class="home-fixed">
-      <img src="../assets/images/shouye/h_15.jpg" alt="">
+      <img src="../assets/images/shouye/h_15.jpg" alt />
     </section>
     <!--二维码定位-->
-
   </div>
   <!--所有内容-->
 </template>
@@ -204,7 +203,7 @@ export default {
 </script>
 
 <style scoped>
-.home-fixed{
+.home-fixed {
   display: flex;
   position: fixed;
   top: 430px;
@@ -293,12 +292,14 @@ export default {
 }
 .home-Product-fuwu {
   width: 100%;
+
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background: url("../assets/images/shouye/f_1.jpg");
+  background: url("../assets/images/shouye/f_1.jpg") no-repeat;
   height: 435px;
+  background-size: cover;
 }
 .home-Product-Exhibition span {
   margin: 0 20px;

@@ -1,64 +1,84 @@
 <template>
   <div class="main">
     <footer class="footer_main">
-        <div class="footer_top">
-          <ul class="footer_topu">
-            <li> <router-link :to="{path:'/aboutUs'}">关于我们</router-link> </li>
-            <li>企业简介</li>
-            <li>公司愿景</li>
-            <li>董事长致辞</li>
-          </ul>
+      <div class="footer_top">
+        <ul class="footer_topu">
+          <li>
+            <router-link :to="{path:'/aboutUs'}">关于我们</router-link>
+          </li>
+          <li>企业简介</li>
+          <li>公司愿景</li>
+          <li>董事长致辞</li>
+        </ul>
 
-          <ul class="footer_topu">
-            <li> <router-link :to="{path:'/productCenterMain'}">产品中心</router-link> </li>
-            <li> <router-link :to="{path:'/Microphone'}">人员基础一体化采集设备</router-link> </li>
-            <li><router-link :to="{path:'/collectionManagement'}">人员基础信息采集管理系统</router-link></li>
-            <li><router-link :to="{path:'/speechRecognition'}">正道智能语音识别系统</router-link></li>
-            <li><router-link :to="{path:'/interrogationAssistant'}">正道智能审讯记录系统</router-link></li>
-            <li><router-link :to="{path:'/integratedAcquisition'}">智慧审讯助手</router-link></li>
-          </ul>
+        <ul class="footer_topu">
+          <li>
+            <router-link :to="{path:'/productCenterMain'}">产品中心</router-link>
+          </li>
+          <li>
+            <router-link :to="{path:'/Microphone'}">人员基础一体化采集设备</router-link>
+          </li>
+          <li>
+            <router-link :to="{path:'/collectionManagement'}">人员基础信息采集管理系统</router-link>
+          </li>
+          <li>
+            <router-link :to="{path:'/speechRecognition'}">正道智能语音识别系统</router-link>
+          </li>
+          <li>
+            <router-link :to="{path:'/interrogationAssistant'}">正道智能审讯记录系统</router-link>
+          </li>
+          <li>
+            <router-link :to="{path:'/integratedAcquisition'}">智慧审讯助手</router-link>
+          </li>
+        </ul>
 
-          <ul class="footer_topu">
-            <li>解决方案</li>
-            <li>办案中心解决方案</li>
-            <li>基层队所解决方案</li>
-            <li>智能语音识别解决方案</li>
-            <li>智能语义理解解决方案</li>
-          </ul>
-          <ul class="footer_topu">
-            <li>服务支持</li>
-            <li><router-link :to="{path:'/downloadZone'}">下载</router-link></li>
-            <li><router-link :to="{path:'/saleService'}">售后服务</router-link></li>
-            <li><router-link :to="{path:'/commonProblem'}">常见问题问答</router-link></li>
-          </ul>
+        <ul class="footer_topu">
+          <li>解决方案</li>
+          <li>办案中心解决方案</li>
+          <li>基层队所解决方案</li>
+          <li>智能语音识别解决方案</li>
+          <li>智能语义理解解决方案</li>
+        </ul>
+        <ul class="footer_topu">
+          <li>服务支持</li>
+          <li>
+            <router-link :to="{path:'/downloadZone'}">下载</router-link>
+          </li>
+          <li>
+            <router-link :to="{path:'/saleService'}">售后服务</router-link>
+          </li>
+          <li>
+            <router-link :to="{path:'/commonProblem'}">常见问题问答</router-link>
+          </li>
+        </ul>
 
-          <ul class="footer_topu">
-            <li>联系我们</li>
-            <li>代理商加盟</li>
-            <li>渠道商加盟</li>
-            <li>联系我们</li>
-          </ul>
+        <ul class="footer_topu">
+          <li>联系我们</li>
+          <li>代理商加盟</li>
+          <li>渠道商加盟</li>
+          <li>联系我们</li>
+        </ul>
 
-          <ul class="footer_topu">
-            <li>加入联腾</li>
-            <li>社会招聘</li>
-            <li>校园招聘</li>
-          </ul>
+        <ul class="footer_topu">
+          <li>加入联腾</li>
+          <li>社会招聘</li>
+          <li>校园招聘</li>
+        </ul>
 
-          <ul class="footer_topu">
-            <li>全国营销网络</li>
-            <li class="footer_topui"><img src="../assets/images/shouye/h_13.jpg" alt=""></li>
-          </ul>
-        </div>
-        <!--底部上面内容-->
-        <div class="footer_bottom">
-          客服电话：400-889-8066
-        </div>
-        <!--底部下面内容-->
-        <div class="footer_input">
-             <el-input style="width:10%;"></el-input>
-        </div>
-        <!--底部输入框内容-->
+        <ul class="footer_topu">
+          <li>全国营销网络</li>
+          <li class="footer_topui">
+            <img src="../assets/images/shouye/h_13.jpg" alt />
+          </li>
+        </ul>
+      </div>
+      <!--底部上面内容-->
+      <div class="footer_bottom">客服电话：400-889-8066</div>
+      <!--底部下面内容-->
+      <div class="footer_input">
+        <el-input style="width:10%;"></el-input>
+      </div>
+      <!--底部输入框内容-->
     </footer>
     <!--底部导航-->
   </div>
@@ -71,55 +91,53 @@ export default {};
 
 
 <style scoped>
-.main{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
 }
-.footer_main{
-    width: 100%;
-    display: flex;
-    height: 442px;
-    background: #0f1e39;
-    flex-direction: column;
-    color: #ffffff;
-    justify-content: center;
-
+.footer_main {
+  width: 100%;
+  display: flex;
+  height: 442px;
+  background: #0f1e39;
+  flex-direction: column;
+  color: #ffffff;
+  justify-content: center;
 }
-.footer_top{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
+.footer_top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
-.footer_topu{
+.footer_topu {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   text-align: left;
   width: 12%;
 }
-.footer_topu li:first-child{
+.footer_topu li:first-child {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 18px;
 }
-.footer_topu li:first-child a{
+.footer_topu li:first-child a {
   color: #ffffff;
 }
-.footer_topu li:nth-child(n+2){
+.footer_topu li:nth-child(n + 2) {
   color: #8b91a1;
   font-size: 14px;
   line-height: 23px;
 }
-.footer_topu li:nth-child(n+2) a{
+.footer_topu li:nth-child(n + 2) a {
   color: #8b91a1;
 }
-.footer_top .footer_topu:last-child{
+.footer_top .footer_topu:last-child {
   text-align: center;
-  width:16%;
+  width: 16%;
 }
-.footer_bottom{
+.footer_bottom {
   display: flex;
   flex-direction: row;
   font-weight: bold;
@@ -128,7 +146,7 @@ export default {};
   line-height: 50px;
   font-size: 18px;
 }
-.footer_input{
+.footer_input {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -136,7 +154,5 @@ export default {};
   text-align: right;
   align-items: center;
   margin-top: 10px;
-
 }
-
 </style>
