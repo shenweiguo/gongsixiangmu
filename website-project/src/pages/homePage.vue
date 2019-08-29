@@ -104,7 +104,7 @@
 
       <div class="home-Product-slist1">
         <span class="home-Product-slist1s">
-          <img src="../assets/images/shouye/shouye_6.png" alt />
+          <img src="../assets/images/shouye/shouye_7.png" alt />
         </span>
         <div class="home-Product-slist1m">
           <span>智能语音识别解决方案</span>
@@ -118,7 +118,7 @@
 
       <div class="home-Product-slist1">
         <span class="home-Product-slist1s">
-          <img src="../assets/images/shouye/shouye_7.png" alt />
+          <img src="../assets/images/shouye/shouye_6.png" alt />
         </span>
         <div class="home-Product-slist1m">
           <span>智能语义理解解决方案</span>
@@ -271,6 +271,10 @@ export default {
   flex: 1;
   background-color: rgba(103, 152, 212, 0.8);
   border-right: 1px solid #4682bd;
+}
+.home-Product-slist1:hover{
+  background-color: rgba(181,62,97,0.8);
+  cursor: pointer;
 }
 .home-Product-Solve {
   display: flex;
