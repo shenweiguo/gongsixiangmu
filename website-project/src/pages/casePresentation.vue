@@ -261,12 +261,12 @@
         <!--左边-->
         <div class="case-Personner">
           <div class="case-listlinem">
-            <div class="case-listlinem1">
+            <div class="case-listlinem1"  style="width:300px;">
               <img src="../assets/images/casePresentation/ca_7.jpg" alt />
               <span class="case-listlinem1d">湖南省公安厅</span>
             </div>
             <!--单个数据-->
-            <div class="case-listlinem1">
+            <div class="case-listlinem1"  style="width:300px;">
               <img src="../assets/images/casePresentation/ca_7.jpg" alt />
               <span class="case-listlinem1d">云南省公安厅</span>
             </div>
@@ -274,12 +274,12 @@
           </div>
           <!--第一行数据-->
           <div class="case-listlinem" style="margin-top:20px;">
-            <div class="case-listlinem1">
+            <div class="case-listlinem1" style="width:300px;">
               <img src="../assets/images/casePresentation/ca_8.jpg" alt />
               <span class="case-listlinem1d">湖南省公安厅</span>
             </div>
             <!--单个数据-->
-            <div class="case-listlinem1">
+            <div class="case-listlinem1"  style="width:300px;">
               <img src="../assets/images/casePresentation/ca_7.jpg" alt />
               <span class="case-listlinem1d">云南省公安厅</span>
             </div>
