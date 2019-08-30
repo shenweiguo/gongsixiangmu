@@ -12,37 +12,9 @@
         </ul>
 
         <ul class="footer_topu">
-          <li>
-            <router-link :to="{path:'/productCenterMain'}">产品中心</router-link>
-          </li>
-          <li>
-            <router-link :to="{path:'/Microphone'}">人员基础一体化采集设备</router-link>
-          </li>
-          <li>
-            <router-link :to="{path:'/collectionManagement'}">人员基础信息采集管理系统</router-link>
-          </li>
-          <li>
-            <router-link :to="{path:'/speechRecognition'}">正道智能语音识别系统</router-link>
-          </li>
-          <li>
-            <router-link :to="{path:'/interrogationAssistant'}">正道智能审讯记录系统</router-link>
-          </li>
-          <li>
-            <router-link :to="{path:'/integratedAcquisition'}">智慧审讯助手</router-link>
-          </li>
-        </ul>
-
-        <ul class="footer_topu">
-          <li>解决方案</li>
-          <li>办案中心解决方案</li>
-          <li>基层队所解决方案</li>
-          <li>智能语音识别解决方案</li>
-          <li>智能语义理解解决方案</li>
-        </ul>
-        <ul class="footer_topu">
           <li>服务支持</li>
           <li>
-            <router-link :to="{path:'/downloadZone'}">下载</router-link>
+            <router-link :to="{path:'/downloadZone'}">下载专区</router-link>
           </li>
           <li>
             <router-link :to="{path:'/saleService'}">售后服务</router-link>
@@ -53,16 +25,14 @@
         </ul>
 
         <ul class="footer_topu">
-          <li>联系我们</li>
-          <li>代理商加盟</li>
+          <li>生态合作</li>
+          <li>代理商合作</li>
           <li>渠道商加盟</li>
-          <li>联系我们</li>
         </ul>
-
         <ul class="footer_topu">
           <li>加入联腾</li>
-          <li>社会招聘</li>
-          <li>校园招聘</li>
+          <li>招贤纳士</li>
+          <li>联系我们</li>
         </ul>
 
         <ul class="footer_topu">

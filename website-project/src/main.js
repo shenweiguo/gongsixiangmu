@@ -12,6 +12,11 @@ import 'swiper/dist/css/swiper.min.css';
 Vue.use(ElementUI);
 
 Vue.config.productionTip = false
+//路由跳转后，页面回到顶部
+router.afterEach(() => {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+})
 
 /* eslint-disable no-new */
 new Vue({
